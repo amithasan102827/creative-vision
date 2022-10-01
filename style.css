@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.language {
+    display: flex;
+    right: 0;
+    margin-bottom: 70px;
+}
+
+.language a {
+    font-size: 13px;
+}
+
+.active-language {
+    background-color: #FC616C;
+    color: #fff !important;
+    padding: 0px 5px !important;
+    border-radius: 10px;
+}
+
+/* BANNER */
+.banner {
+    margin-top: 138px;
+}
+
+/* WHY-CHOOSE-US */
+.choose-us-section {
+    min-height: 500px;
+}
+
+.choose-card {
+    border: 1.4px solid #E0E3EB !important;
+    background-color: #FFFFFF !important;
+}
+
+.choose-card .card-text {
+    color: #858EAD;
+    font-weight: 400;
+}
+
+/* ABOUT */
+.about-section {
+    background-image: url('./images/Rectangle\ 20.png');
+    min-height: 811px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.about-text-container {
+    background: rgba(252, 97, 108, 0.92);
+    width: 50%;
+    min-height: 811px;
+    float: right;
+    opacity: 0.8;
+}
+
+.about-text h1 {
+    color: #2D3291;
+    font-weight: 700;
+}
+
+.about-text p {
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.know-more-btn {
+    background: #2D3291 !important;
+    color: #FFFFFF !important;
+    border-radius: 20px !important;
+    width: 185px;
+    height: 58px;
+    font-weight: 600 !important;
+}
+
+/* WE SPECIALIZE IN */
+.specialize-section {
+    min-height: 500px;
+}
+
+.specialize-container{
+    margin-top: 90px;
+}
+
+.specialize-card {
+    background: #FC616C;
+    box-shadow: 0px 30px 40px rgba(252, 97, 108, 0.35);
+    border-radius: 15px;
+    width: 202px;
+    height: 250px;
+    margin: auto;
+}
+
+/* Remarkable Features */
+.remarkable-features{
+    background: rgba(128, 240, 255, 0.1);
+    min-height: 912px;
+}
