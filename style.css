@@ -88,9 +88,10 @@
 /* WE SPECIALIZE IN */
 .specialize-section {
     min-height: 500px;
+    background-color: #FFFFFF;
 }
 
-.specialize-container{
+.specialize-container {
     margin-top: 90px;
 }
 
@@ -104,7 +105,70 @@
 }
 
 /* Remarkable Features */
-.remarkable-features{
+.remarkable-features {
     background: rgba(128, 240, 255, 0.1);
     min-height: 812px;
+}
+
+/* TRENDING NOWADAYS */
+.trending-section {
+    background: linear-gradient(180deg, #190594 0%, rgba(35, 39, 124, 0.65) 100%);
+    /* min-height: 1200px; */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+
+.trending-card img {
+    width: 257px;
+    height: 374px;
+}
+
+/* BOOK FREE CONSULTATION */
+
+.consaltation-ima-container img {
+    width: 601px;
+    height: 676px;
+}
+
+/* APPOINTMENT-SECTION */
+.appointment-section {
+    background: #FC616C;
+}
+
+/* What our clients say about us */
+.client-card {
+    border: 1px solid #000000 !important;
+    border-radius: 20px !important;
+    width: 306px;
+    height: 443px;
+    margin: auto;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+
+.client-card img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.star-icon {
+    color: #FF7A00;
+}
+
+/* FOOTER */
+.footer-container{
+    background: #2D3291;
+    min-height: 369px;
+}
+
+.quick-links h6 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: #fff;
 }
