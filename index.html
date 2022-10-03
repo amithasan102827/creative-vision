@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CREATIVE VISION</title>
-    <link rel="stylesheet" href="style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -13,7 +13,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE-FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Montserrat&family=Poppins:wght@500;600&family=Roboto:wght@500;700&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
+
+
+
 
 <body>
 
@@ -24,16 +38,28 @@
                 <a class="navbar-brand" href="#">
                     <img class="img-fluid " src="./images/images-removebg-preview.png" alt="" srcset="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse position-relative" id="navbarNavAltMarkup">
+
+                <!-- id="navbarNavAltMarkup" -->
+
+                <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
 
                     <div class="navbar-nav  ms-auto ">
                         <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        <a class="nav-link" href="#">WINDOW BLINDS</a>
+                        <a class="nav-link" href="/productCategory.html">WINDOW BLINDS</a>
                         <a class="nav-link" href="#">FLOORING</a>
                         <a class="nav-link" href="#">CURTAINS</a>
                         <a class="nav-link" href="#">CARPET FLOORING</a>
@@ -41,7 +67,7 @@
                         <a class="nav-link" href="#">BLOG </a>
                         <a class="nav-link" href="#">CONTACT US </a>
                     </div>
-                    <div class="  language position-absolute  me-2">
+                    <div class=" language position-absolute  me-2  ">
                         <a class="nav-link mx-3 active-language " href="#">ENGLISH</a>
                         <a class="nav-link " href="#">ARABIC</a>
                     </div>
@@ -80,7 +106,7 @@
     <!-- WHY-CHOOSE-US -->
     <section class="choose-us-section overflow-hidden">
         <div class="container my-5">
-            <h2 class="text-center my-5 fw-bold">WHY CHOOSE US</h2>
+            <h2 class="text-center my-5 ">Why Choose Us</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 ">
                 <div class="col">
                     <div class="card mx-auto choose-card" style="width: 292px; height: 197px;">
@@ -91,7 +117,7 @@
                             <h5 class="card-title my-3">
                                 Best Materials
                             </h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
+                            <p class="card-text ">Some quick example text to build on the card title and make up the
                             </p>
                         </div>
                     </div>
@@ -151,13 +177,13 @@
     <!-- WE SPECIALIZE IN -->
     <section class="specialize-section mb-5">
         <div class="container specialize-container">
-            <h2 class="text-center my-5">WE SPECIALIZE IN</h2>
+            <h2 class="text-center my-5">We Specialize in</h2>
             <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 g-4 ">
                 <div class="col">
                     <div class=" specialize-card">
                         <img src="./images/Rectangle 10 (1).png" class="img-fluid card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="mt-2 text-center text-light">BLINDS</h5>
+                            <h6 class="mt-3 text-center text-light">BLINDS</h6>
                         </div>
                     </div>
                 </div>
@@ -165,7 +191,7 @@
                     <div class=" specialize-card">
                         <img src="./images/Rectangle 11 (1).png" class="img-fluid card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="mt-2 text-center text-light">SPC FLOORING</h5>
+                            <h6 class="mt-3 text-center text-light">SPC FLOORING</h6>
                         </div>
                     </div>
                 </div>
@@ -173,7 +199,7 @@
                     <div class=" specialize-card">
                         <img src="./images/Rectangle 12.png" class="img-fluid card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="mt-2 text-center text-light">CURTAINS</h5>
+                            <h6 class="mt-3 text-center text-light">CURTAINS</h6>
                         </div>
                     </div>
                 </div>
@@ -181,7 +207,7 @@
                     <div class=" specialize-card">
                         <img src="./images/Rectangle 10 (1).png" class="img-fluid card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="mt-2 text-center text-light">CARPET FLOORING</h5>
+                            <h6 class="mt-3 text-center text-light">CARPET FLOORING</h6>
                         </div>
                     </div>
                 </div>
@@ -197,98 +223,124 @@
             <div class="row row-cols-1 row-cols-md-2 g-md-0 g-4 ">
 
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
                             <div class="vr"> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.Our roller and roman blinds are available in distinctive colours,
+                                textures,
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
                             <div class="vr"> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col my-4">
-                    <div class="d-flex justify-content-center align-items-center w-50 mx-auto">
-                        <div class="d-flex bg-danger" style="height: 77px; width: 5px;">
-                            <div class="vr"> </div>
+                    <div class="d-flex justify-content-center align-items-center w-75 mx-auto">
+
+                        <div class="d-flex vertical-line" style="height: 77px; width: 2px;">
+                            <div class="vr "> </div>
                         </div>
-                        <div class="ms-3">
-                            <p class="m-0">Our roller and roman blinds are available in distinctive colours, textures,
+
+                        <div class="ms-3 w-75">
+                            <p class="m-0 features-text">Our roller and roman blinds are available in distinctive
+                                colours, textures,
                                 and
-                                eye-catching designs. </p>
+                                eye-catching designs.</p>
                         </div>
                     </div>
                 </div>
@@ -371,7 +423,7 @@
                 </div>
             </div>
             <div class="py-5">
-                <button type="button" class="btn btn-danger mx-auto d-block px-4 py-2">SHOW MORE</button>
+                <button type="button" class="btn show-more-btn  mx-auto d-block px-4 py-2">SHOW MORE</button>
             </div>
         </div>
     </section>
@@ -385,7 +437,7 @@
                         <h5>Versatility In Designs & Types of</h5>
                         <h2>Roller Blinds UAE</h2>
                         <hr>
-                        <p style="text-align: justify;">
+                        <p class="consaltation-text">
                             Our roller blinds can amplify the interior of any space within the blink of an eye. Because
                             we
                             are offering our versatile blinds with ergonomic designs, innovative styles, and bold
@@ -421,11 +473,11 @@
     </section>
 
     <!-- APPOINTMENT -->
-    <section class="appointment-section py-5 mb-5">
+    <section class="appointment-section  mb-5 d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
-                    <p class="text-light" style="text-align: justify;">Creative Vision offers you a free Home
+                    <p class=" appointment-text">Creative Vision offers you a free Home
                         Consultation, we have locally based consultants who carry our shop to your home. Our consultants
                         are highly trained & professionals who can take care of your requirements & make your dream come
                         true. They listen very carefully to your likes and visions regarding the decoration of your
@@ -433,10 +485,10 @@
                 </div>
                 <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                     <div>
-                        <h1 class="text-light">Need a free <br>
+                        <h1 class="text-light appointment-text-2">Need a free <br>
                             <span class="fw-bold">appointment</span>
                         </h1>
-                        <button type="button" class="btn btn-primary px-5 text-light mt-4">BOOK</button>
+                        <button type="button" class="btn appointment-btn px-5 text-light mt-4">BOOK</button>
                     </div>
                 </div>
             </div>
@@ -446,7 +498,7 @@
     <!-- What our clients say about us. -->
     <section class="mb-5">
         <div class="container">
-            <h2 class="text-center py-5">What our clients say about us.</h2>
+            <h2 class="text-center py-5 client-say-title">What our clients say about us.</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-md-0 g-4 ">
 
                 <div class="col mb-4">
@@ -502,7 +554,7 @@
                 </div>
             </div>
 
-            <button type="button" class="btn btn-primary px-5 my-5 fw-bold d-block mx-auto">See More</button>
+            <button type="button" class="btn see-more-btn  my-5  d-block mx-auto">See More</button>
         </div>
     </section>
 
@@ -522,17 +574,16 @@
                 <div class="col-md-4 col-12 d-flex justify-content-center mt-md-0 mt-5">
                     <div class=" quick-links text-md-start text-center">
                         <h5 class="text-light mb-4">Product</h5>
-                        <h6><a href="">Home</a></h6>
-                        <h6><a href="">About</a></h6>
-                        <h6><a href="">Contact Us</a></h6>
-                        <h6><a href="">Home</a></h6>
-                        <h6><a href="">About</a></h6>
-                        <h6><a href="">Contact Us</a></h6>
+                        <h6><a href="">Blinds & Shades</a></h6>
+                        <h6><a href="">Curtains</a></h6>
+                        <h6><a href="">SPC Flooring</a></h6>
+                        <h6><a href="">Wallpaper</a></h6>
+                        <h6><a href="">Moatorized Blinds and Curtains</a></h6>
                     </div>
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center">
                     <div class=" quick-links text-light text-md-start text-center mt-md-0 mt-5">
-                        <h5 class="text-light text-md-end text-center">Product</h5>
+                        <h5 class="text-light text-md-end text-center">Follow Us</h5>
                         <div class="my-4 d-flex justify-content-end footer-icon">
                             <a class="me-4" href=""> <i class="fa-brands fa-square-facebook fa-xl"></i></a>
                             <a href=""> <i class="fa-brands fa-square-twitter fa-xl "></i> </a>

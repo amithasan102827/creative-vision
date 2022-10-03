@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BANNER */
+.category-banner {
+    margin-top: 138px;
+}
+
+/* product-category-card */
+
+.circle-card img {
+    border: 1px solid #4F4F4F;
+}
+
+.product-category-card {
+    height: 500px;
+    width: 349px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.product-category-card img {
+    height: 349px;
+    width: 349px;
+    margin: auto;
+}

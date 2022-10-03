@@ -1,30 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Montserrat&family=Poppins:wght@500;600&family=Roboto:wght@500;700&family=Work+Sans:wght@400;700&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* NAVBAR */
-.navbar {
-    background-color: #FFFFFF !important;
-}
 
-.language {
-    display: flex;
-    right: 0;
-    margin-bottom: 70px;
-}
-
-.language a {
-    font-size: 13px;
-}
-
-.active-language {
-    background-color: #FC616C;
-    color: #fff !important;
-    padding: 0px 5px !important;
-    border-radius: 10px;
-}
 
 /* BANNER */
 .banner {
@@ -41,10 +31,18 @@
     background-color: #FFFFFF !important;
 }
 
+.choose-card .card-title {
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
 .choose-card .card-text {
     color: #858EAD;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 }
+
+
 
 /* ABOUT */
 .about-section {
@@ -61,7 +59,7 @@
     width: 50%;
     min-height: 811px;
     float: right;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 .about-text h1 {
@@ -79,10 +77,14 @@
 .know-more-btn {
     background: #2D3291 !important;
     color: #FFFFFF !important;
-    border-radius: 20px !important;
-    width: 185px;
-    height: 58px;
+    border-radius: 15px !important;
+    width: 160px;
+    height: 48px;
     font-weight: 600 !important;
+}
+
+.know-more-btn:hover {
+    background-color: #6165ae !important;
 }
 
 /* WE SPECIALIZE IN */
@@ -104,25 +106,43 @@
     margin: auto;
 }
 
+.specialize-card .card-body h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
 /* Remarkable Features */
 .remarkable-features {
     background: rgba(128, 240, 255, 0.1);
     min-height: 812px;
 }
 
+.vertical-line {
+    background-color: #FC616C;
+}
+
+.features-text {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
 /* TRENDING NOWADAYS */
 .trending-section {
     background: linear-gradient(180deg, #190594 0%, rgba(35, 39, 124, 0.65) 100%);
-    /* min-height: 1200px; */
-    /* background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover; */
 }
 
 .trending-card img {
     width: 257px;
     height: 374px;
+}
+
+.show-more-btn {
+    background-color: #020769 !important;
+    color: #FFFFFF !important;
+}
+
+.show-more-btn:hover {
+    background-color: #2D3291 !important;
 }
 
 /* BOOK FREE CONSULTATION */
@@ -132,9 +152,37 @@
     height: 676px;
 }
 
+.consaltation-text {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* APPOINTMENT-SECTION */
 .appointment-section {
     background: #FC616C;
+    min-height: 397px;
+}
+
+.appointment-text {
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.appointment-text-2 span {
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.appointment-btn {
+    background-color: #2D3291 !important;
+}
+
+.appointment-btn:hover {
+    background-color: #5056c3 !important;
 }
 
 /* What our clients say about us */
@@ -154,21 +202,55 @@
     margin: auto;
 }
 
+.client-card .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.client-card .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .star-icon {
     color: #FF7A00;
 }
 
-/* FOOTER */
-.footer-container{
-    background: #2D3291;
-    min-height: 369px;
+.client-say-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
-.quick-links h6 a{
-    text-decoration: none;
-    color: #fff;
+.see-more-btn {
+    background-color: #2D3291 !important;
+    color: #FFFFFF !important;
+    padding: 10px 40px !important;
 }
-.footer-icon a{
-    text-decoration: none;
-    color: #fff;
+
+.see-more-btn:hover {
+    background-color: #464cbd !important;
+}
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    /* NAVBAR */
+    .language {
+        display: flex;
+        right: 0;
+        margin-bottom: 100px;
+    }
+
+    /* ABOUT */
+    .about-text-container {
+        background: rgba(252, 97, 108, 0.92);
+        width: 100%;
+        min-height: 811px;
+        float: right;
+        opacity: 0.8;
+    }
 }
