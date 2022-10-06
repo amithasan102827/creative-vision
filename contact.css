@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTACT-BANNER */
+.contact-banner {
+    margin-top: 138px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./images/pexels-pixabay-269218.jpg");
+    height: 90vh;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.hero-img {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-image: url(./images/Rectangle\ 1.png);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+}
+
+
+.contact-form-container {
+    height: 75vh;
+
+    background: #E5E5E5;
+    border: 8px solid rgba(229, 229, 229, 0.54);
+    box-shadow: inset 7.7px -7.7px 7.7px rgba(149, 149, 149, 0.1), inset -7.7px 7.7px 7.7px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.7px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-field {
+    width: 75%;
+    margin: auto;
+}
+
+.contact-btn {
+    background-color: #FC616C;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+}
+
+.contact-btn:hover {
+    background-color: #ff8c93;
+    color: #FFFFFF;
+
+}
+
+/* HEAD-OFFICE-CARD */
+.head-office-card {
+    border: 0 !important;
+    background: #FFFFFF;
+    /* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.head-office-card .card-header {
+    background: #FC616C !important;
+    color: #FFFFFF;
+}
+
+.head-office-address {
+    color: #000000 !important;
+}
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    /* CONTACT-BANNER */
+    .contact-banner {
+        margin-top: 138px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./images/pexels-pixabay-269218.jpg");
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero-img {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-image: url(./images/Rectangle\ 1.png);
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+
+    .text-field {
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
+
+
+/* Tablet */
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* CONTACT-BANNER */
+    .contact-banner {
+        margin-top: 138px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./images/pexels-pixabay-269218.jpg");
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero-img {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-image: url(./images/Rectangle\ 1.png);
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+
+    .text-field {
+        width: 100%;
+        margin: auto;
+    }
+}

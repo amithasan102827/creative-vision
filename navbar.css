@@ -9,6 +9,10 @@
     background-color: #FFFFFF !important;
 }
 
+.navbar-nav a:hover {
+    color: #FC616C;
+}
+
 .language {
     display: flex;
     right: 0;

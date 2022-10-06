@@ -1,0 +1,43 @@
+/* STICKY-SOCIAL-ICON  */
+.icons {
+    top: 40%;
+    right: 0;
+    transform: translateY(-40%);
+    position: fixed;
+    z-index: 100;
+}
+
+.icons ul {
+    width: 33px;
+    background: #FC616C;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.icons ul li {
+    list-style-type: none;
+    padding: 8px 3px;
+    margin-right: 25px;
+}
+
+/* STICKY-CHATS */
+.chats {
+    bottom:0;
+    right: 0.5%;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+}
+
+.chats ul {
+    background: #FC616C;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.chats ul li {
+    list-style-type: none;
+    padding: 8px 3px;
+    margin-right: 25px;
+}
+.chats ul li a {
+    text-decoration: none;
+}
