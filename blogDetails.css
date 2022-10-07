@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-details-banner {
+    margin-top: 150px;
+}
+
+.blogDetails-read-btn {
+    border: none;
+    background-color: #FC616C;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.blogDetails-read-btn:hover {
+    background-color: #fc8990;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    .width-80 {
+        width: 100%;
+    }
+
+
+}
+
+
+/* Tablet */
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .width-80 {
+        width: 100%;
+    }
+}

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* GALLERY-BANNER */
 .gallery-banner {
     background-image: url(./images/Rectangle\ 616.png);
     background-position: center;
@@ -13,22 +14,100 @@
     margin-top: 138px;
 }
 
-/* CATELOG-CARD */
-.catelog-card {
+/* GALLERY-CARD */
+.gallery-card {
     /* background: #FFFFFF; */
     box-shadow: 0px 20px 40px rgba(252, 97, 108, 0.15);
     border-radius: 25px;
-    width: 435px;
-    height: 500px;
+    width: 500px;
+    height: 519px;
     margin: auto;
 }
 
-.catelog-card img {
-    width: 435px;
-    height: 419px;
+.gallery-card img {
+    width: 500px;
+    height: 440px;
+    margin: auto;
 }
 
-.catelog-card .card-body h5 {
+.gallery-card .card-body h5 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+}
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+    /* GALLERY-BANNER */
+    .gallery-banner {
+        background-image: url(./images/Rectangle\ 616.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        margin-top: 138px;
+    }
+
+    /* GALLERY-CARD */
+    .gallery-card {
+        /* background: #FFFFFF; */
+        box-shadow: 0px 20px 40px rgba(252, 97, 108, 0.15);
+        border-radius: 25px;
+        width: 320px;
+        height: 419px;
+        margin: auto;
+    }
+
+    .gallery-card img {
+        width: 320px;
+        height: 330px;
+        margin: auto;
+    }
+
+    .gallery-card .card-body h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        padding: 0 10px;
+    }
+
+
+}
+
+
+/* Tablet */
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+       /* GALLERY-BANNER */
+       .gallery-banner {
+        background-image: url(./images/Rectangle\ 616.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        margin-top: 138px;
+    }
+
+    /* GALLERY-CARD */
+    .gallery-card {
+        /* background: #FFFFFF; */
+        box-shadow: 0px 20px 40px rgba(252, 97, 108, 0.15);
+        border-radius: 25px;
+        width: 320px;
+        height: 419px;
+        margin: auto;
+    }
+
+    .gallery-card img {
+        width: 320px;
+        height: 330px;
+        margin: auto;
+    }
+
+    .gallery-card .card-body h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        padding: 0 10px;
+    }
 }
