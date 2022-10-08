@@ -84,6 +84,7 @@
 
 
 
+
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 480px) {
 
@@ -91,7 +92,7 @@
     .contact-banner {
         margin-top: 138px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./images/pexels-pixabay-269218.jpg");
-        height: 50vh;
+        height: 60vh;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
