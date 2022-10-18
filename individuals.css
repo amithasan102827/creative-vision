@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CATEGORY-BANNER */
+.category-banner {
+    margin-top: 138px;
+}
+
+/* product-category-card */
+
+.circle-card img {
+    border: 1px solid #4F4F4F;
+}
+
+/* OUR VERTICAL BLINDS FEATURES */
+.features-image img{
+    height: 238px;
+    width: 535px;
+}
+
+/* SOME-OF-OUT-CARD */
+.product-category-card {
+    width: 312px;
+    height: 312px;
+    margin: auto;
+}
+
+.works-card-width {
+    width: 75%;
+}
+
+.product-category-card img {
+    width: 312px;
+    height: 312px;
+    margin: auto;
+}
+
+
+/* appointment-section */
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("images/Rectangle\ 629.png");
+
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: #FC616C;
+    opacity: 0.8;
+}
+
+.product-category-appointment-btn {
+    background-color: #2D3291 !important;
+}
+
+.product-category-appointment-btn:hover {
+    background-color: #5056c3 !important;
+}
+
+
+/* What our clients say about us */
+.client-card {
+    border: 1px solid #000000 !important;
+    border-radius: 20px !important;
+    width: 306px;
+    height: 443px;
+    margin: auto;
+}
+
+.client-card img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.client-card .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.client-card .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.star-icon {
+    color: #FF7A00;
+}
+
+.client-say-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.see-more-btn {
+    background-color: #2D3291 !important;
+    color: #FFFFFF !important;
+    padding: 10px 40px !important;
+}
+
+.see-more-btn:hover {
+    background-color: #464cbd !important;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    .works-card-width {
+        width: 100%;
+    }
+
+}
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .works-card-width {
+        width: 100%;
+    }
+}
