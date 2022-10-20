@@ -17,12 +17,29 @@
 }
 
 /* OUR VERTICAL BLINDS FEATURES */
-.features-image img{
+.features-image img {
     height: 238px;
     width: 535px;
 }
 
-/* SOME-OF-OUT-CARD */
+/* Roller Blinds Dubai */
+.roller-blinds h3 {
+
+    font-family: 'Montaga', serif;
+}
+
+.roller-blinds p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.roller-blinds img {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* SOME-OF-OUR-CARD */
 .product-category-card {
     width: 312px;
     height: 312px;
